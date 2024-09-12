@@ -1,4 +1,4 @@
-
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,6 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header Styling */
 header {
     background-color: #333;
     color: #fff;
@@ -27,14 +28,16 @@ nav a {
 }
 
 .nav-link.active {
-  background-color: #007bff; /* Example color (you can change this) */
-  color: white;
-  border-radius: 5px;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
 }
+
 nav a:hover {
     background-color: #0056b3;
 }
 
+/* Main Content Styling */
 main {
     padding: 20px;
     background-color: #fff;
@@ -43,6 +46,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Heading Styling */
 h1 {
     color: #333;
 }
@@ -51,13 +55,40 @@ h2 {
     color: #007BFF;
 }
 
+/* List Styling */
 ul {
     list-style-type: square;
 }
 
+/* Footer Styling */
 footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
     color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        margin: 10px;
+    }
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Footer at Bottom */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Makes the main section fill remaining space */
 }
