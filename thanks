@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR-ARCHITECTS & INTERIORS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 style="Background-color:Green">AR-ARCHITECTS & INTERIORS</h3>
+        <p><strong>Transforming Spaces with Excellence!</strong></p>
+        <p>Whether you're dreaming of a modern home or a sophisticated commercial space, we <strong>PLAN</strong>, <strong>DESIGN</strong>, and <strong>EXECUTE</strong> with precision and creativity.</p>
+
+        <p><strong>Bring your vision to life with AR-ARCHITECTS & INTERIORS – Where Design Meets Function!</strong></p>
+    </div>
+</body>
+</html>
