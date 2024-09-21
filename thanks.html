@@ -48,15 +48,54 @@ nav a {
 nav a:hover {
     background-color: #0056b3;
 }
-  html, body {
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        margin: 10px;
+    }
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Footer at Bottom */
+html, body {
     height: 100%;
 }
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
+  
     </style>
 </head>
 <body>
